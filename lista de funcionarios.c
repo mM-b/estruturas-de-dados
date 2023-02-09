@@ -16,16 +16,16 @@ int main(void){
     Funcionario * funcionarios  = (Funcionario*) malloc(tamanho * sizeof(Funcionario));
     for(int i=0;i<tamanho;i++){
         printf("informe seu nome\n");
-        scanf(" %[^\n]s",&funcionarios[i].nome);
+        scanf(" %[^\n]s",funcionarios[i].nome);
         printf("informe o salario\n");
         scanf("%f",&funcionarios[i].salarios);
         printf("informe seu cargo\n");
-        scanf(" %[^\n]s",&funcionarios[i].cargo);
+        scanf(" %[^\n]s",funcionarios[i].cargo);
     }
 printf("\n");
     for(int i=0;i<tamanho;i++){
         printf("nome:%s\nsalario:%.2f\ncargo:%s\n\n",funcionarios[i].nome,funcionarios[i].salarios,funcionarios[i].cargo);
     }
-
+free(funcionarios);
     return 0;
 }
