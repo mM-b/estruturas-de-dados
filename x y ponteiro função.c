@@ -22,4 +22,5 @@ else if(strcmp(x,"sub")==0){
     resultado = calcula(5,3,sub);
     printf("%d",resultado);
 }
+    return 0;
 }
