@@ -36,7 +36,6 @@ void recebe(Funcionario *funcionarios, int tamanho)
  * @param *funcionarios
  * @param tamanho
  */
-
 void imprime(Funcionario *funcionarios, int tamanho)
 {
     for (contador = 0; contador < tamanho; contador++)
@@ -49,7 +48,6 @@ void imprime(Funcionario *funcionarios, int tamanho)
  * função para alterar o salario de um funcionario
  * @param *funcionarios
  */
-
 void altera_sal(Funcionario *funcionarios)
 {
     printf("informe o novo salario");
@@ -63,7 +61,6 @@ void altera_sal(Funcionario *funcionarios)
  * @param *funcionarios
  * @param qnt_funcionarios
  */
-
 void salarios(Funcionario *funcionarios, int qnt_funcionarios)
 {
     float maior = funcionarios[0].salarios, menor = funcionarios[0].salarios; // atribui a primeira posição de funcionarios o maior e o menor salario
