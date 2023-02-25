@@ -131,7 +131,7 @@ void imprime_turmas(Turma **turma, int nturmas)
     }
 }
 /**
- * procura a turma para auxiliar outras funcoes
+ * procura a turma para auxiliar outras funções
  * @param **turmas
  * @param n
  * @param id
