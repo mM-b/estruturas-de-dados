@@ -12,3 +12,5 @@ int main(void)
     printf("x= %d y=%d p=%p", x, y, p);
     return 0;
 }
+
+// x=3, y=4, p=endereço de y
